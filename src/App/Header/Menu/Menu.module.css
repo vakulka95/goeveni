@@ -1,0 +1,21 @@
+/******************   MENU   ***************************/
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	opacity: 0.7;
+	transition: all 0.2s linear;
+
+	font-weight: 600;
+}
+
+.menu a:hover {
+	opacity: 1;
+	transition: all 0.2s linear;
+}

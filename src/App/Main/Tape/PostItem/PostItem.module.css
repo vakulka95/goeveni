@@ -1,0 +1,139 @@
+.postItem{
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 30px 0;
+
+}
+
+.avaPeople img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.postHeader{
+
+	padding: 15px 15px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.user,
+.likesComments{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nameUser{
+	margin-left: 10px;
+	font-weight: 600;
+    font-size: 14px;
+}
+
+
+.nameUser a{
+	color: #000;
+	text-decoration: none;
+}
+
+.nameUser a:hover{
+	text-decoration: underline;
+}
+
+.dateAndBasket{
+	display: flex;
+}
+
+.basket{
+	align-self: flex-end;
+}
+/******************   POST CONTENT   ***************************/
+
+.postContent{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 15px;
+	color: #000;
+	
+	height: 100%;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.postContent p{
+	display: block;
+}
+
+.postImages{
+	margin-top: 30px;
+}
+
+.postImages img{
+
+	max-width: 100%;
+	max-height: 300px;
+
+	border-radius: 10px;
+	margin: 5px;
+
+	cursor: pointer;
+}
+
+.postContent img:hover{
+	box-shadow: 0 0 10px rgba(251, 117, 82, 1);
+}
+
+/******************   POST FOOTER  ***************************/
+
+.postFooter{
+	background-color: rgba(255, 255, 255, 0.85);
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 15px;
+	border-top: 1px solid #E7E7E7;
+}
+
+.likes,
+.comments,
+.share{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 10px;
+	padding-right: 10px; 
+	border-right: 1px solid #E7E7E7;
+}
+
+.likes img,
+.comments img,
+.share img,
+.basket{
+	width: 15px;
+	height: 15px;
+	opacity: 0.5;
+	cursor: pointer;
+	transition: opacity 0.2s;
+
+}
+
+.likes img:hover,
+.comments img:hover,
+.share img:hover,
+.basket:hover{
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.likes p,
+.comments p,
+.share p{
+	display: block;
+	margin-left: 5px;
+}
+
+.share{
+	border: none;
+	margin-right: 0;
+}

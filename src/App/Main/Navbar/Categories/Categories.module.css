@@ -1,0 +1,45 @@
+.categories{
+	background-color: #fff;
+	margin: 30px 0;
+	border-radius: 5px;
+}
+
+
+
+.categories ul{
+	list-style: none;
+}
+
+.categories ul li{
+	border-bottom: 1px solid #E7E7E7;
+	position: relative;
+}
+
+.categories ul li:first-child{
+	border-top: 1px solid #E7E7E7;
+}
+
+.categories ul li>a{
+	display: block;
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.8;
+	padding: 20px 0 20px 60px;
+	transition: all 0.2s linear;
+}
+
+.categories ul li>a:hover{
+	color: #fff;
+	transition: all 0.2s linear;
+	background-color: #FF7556;
+}
+
+.categoriesIcon{
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	width: 25px;
+	height: 25px;
+}

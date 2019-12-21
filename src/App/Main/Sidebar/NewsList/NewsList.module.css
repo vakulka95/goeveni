@@ -1,0 +1,48 @@
+/******************   NEWS  ***************************/
+
+.newsList{
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.newsTitle{
+	border-top: 1px solid #E7E7E7;
+	display: flex;
+	flex-direction: row;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 20px 20px;
+}
+
+.newsTitle a{
+	color: #000;
+	text-decoration: none;
+}
+
+.newsTitle img{
+	width: 25px;
+	height: 25px;
+}
+
+.newsTitle a:hover,
+.newsText a:hover{
+	text-decoration: underline;
+}
+
+.newsTitle p {
+	display: block;
+	margin: auto 15px;
+}
+
+.newsText{
+	padding: 0 20px 20px 20px;
+	color: #000;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.newsText a{
+	color: #1171c7;
+	text-decoration: none;
+}

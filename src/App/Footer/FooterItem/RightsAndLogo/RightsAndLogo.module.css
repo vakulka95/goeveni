@@ -1,0 +1,14 @@
+.rightsAndLogo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.rights a{
+	color: #FB7552;
+	text-decoration: none;
+}
+
+.logoFooter{
+	margin-right: 20px;
+}

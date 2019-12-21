@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+
+body {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: #a6a6a6;
+	background-color: #f1f1f1;
+}
+
+
+
+/******************   CONTAINER   ***************************/
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/************  Media  ***********/
+
+@media(max-width: 1024px){
+	.avaProfile{
+		left: 75px;
+	}
+	
+	.headerInner{
+		margin: auto 20px;
+	}
+}

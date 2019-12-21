@@ -1,0 +1,24 @@
+main{
+	margin-bottom: 50px;
+}
+
+/******************   CONTAINER   ***************************/
+
+
+.content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+

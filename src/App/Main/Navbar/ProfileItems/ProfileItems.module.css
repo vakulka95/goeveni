@@ -1,0 +1,44 @@
+.profileItems{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.subscribersItem{
+	display: flex;
+	justify-content: space-between;
+}
+
+.subscribers{
+	margin: 15px 0;
+	padding: 0 25px;
+}
+
+.sub{
+	border-right: 1px solid #f1f1f1;
+}
+
+.subscribers a,
+.classProfile a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.subscribers a:hover, 
+.classProfile a:hover{
+	text-decoration: underline;
+}
+
+.subscribers div{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.classProfile{
+	margin: 15px 0;
+}

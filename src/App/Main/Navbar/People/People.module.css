@@ -1,0 +1,21 @@
+.people {
+	background-color: #fff;
+    border-radius: 5px;
+    height: 516px;
+    overflow-y: auto;
+}
+.people a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 14px;
+	margin: 0 10px;
+}
+
+.people ul li{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px 15px;
+    border-top: 1px solid #E7E7E7;
+}
