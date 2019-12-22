@@ -85,7 +85,7 @@ const state = {
 }
 
 export let addPost = (postMessage) =>{
-    debugger;
+
     let newPost = {
         id: 3,
         date: 21.12,

@@ -15,14 +15,14 @@ const NewPost = (props) => {
     return (
         <div className={style.newPost}>
             <h2>Add Post</h2>
-            <form>
-                <div>
+            <div>
+                <div className={style.form}>
                     <textarea ref={ newPostElement }></textarea>
                 </div>
                 <div>
                     <button onClick={ addPost }>Add</button>
                 </div>
-            </form>
+            </div>
         </div>
     )
 }
