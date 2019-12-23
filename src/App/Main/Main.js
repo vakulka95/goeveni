@@ -11,7 +11,12 @@ const Main = (props) => {
       <div className={style.container}>
         <div className={style.content}>
           <Navbar friends={props.friends}/>
-          <Tape posts={props.posts} addPost={props.addPost}/>
+          <Tape 
+            posts={props.posts} 
+            addPost={props.addPost}
+            newPostText={props.newPostText}
+            updateNewPostText={props.updateNewPostText}
+          />
           <Sidebar />
         </div>
       </div>

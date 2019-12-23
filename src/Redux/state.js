@@ -45,6 +45,7 @@ const state = {
         },
       
       ],
+    newPostText: 'Hello, World',
     dialogues:[
         {
             id: 1,
@@ -84,17 +85,23 @@ const state = {
     ],
 }
 
-export let addPost = (postMessage) =>{
+export let addPost = () =>{
 
     let newPost = {
         id: 3,
         date: 21.12,
-        text: postMessage,
+        text: state.newPostText,
         likes: 40,
         comments: 2,    
     };
     state.posts.push(newPost);
     rerenderEntireTree(state)
 }
+
+export let updateNewPostText = (newText) =>{
+    state.newPostText = newText;
+    rerenderEntireTree(state)
+}
+
 
 export default state

@@ -8,8 +8,8 @@ import Settings from './Settings/Settings'
 
 
 const Header = () => {
-    return(
-        <header>
+  return (
+    <header>
       <div className="container">
         <div className="headerInner">
           <Logo />
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-    )
+  )
 }
 
 export default Header

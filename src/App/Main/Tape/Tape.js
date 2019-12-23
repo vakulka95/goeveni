@@ -20,7 +20,11 @@ const Tape = (props) => {
     return (
         <div className={style.tape}>
             
-            <NewPost addPost={props.addPost}/>
+            <NewPost 
+                addPost={props.addPost} 
+                newPostText={props.newPostText}
+                updateNewPostText={props.updateNewPostText}
+                    />
             <div>
                 { postsElements }
             </div>
