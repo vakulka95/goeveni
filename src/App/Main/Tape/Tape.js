@@ -23,8 +23,8 @@ const Tape = (props) => {
             <NewPost 
                 addPost={props.addPost} 
                 newPostText={props.newPostText}
-                updateNewPostText={props.updateNewPostText}
-                    />
+                updateNewPostText={ props.updateNewPostText }
+            />
             <div>
                 { postsElements }
             </div>

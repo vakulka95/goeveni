@@ -15,7 +15,7 @@ const Main = (props) => {
             posts={props.posts} 
             addPost={props.addPost}
             newPostText={props.newPostText}
-            updateNewPostText={props.updateNewPostText}
+            updateNewPostText={ props.updateNewPostText }          
           />
           <Sidebar />
         </div>

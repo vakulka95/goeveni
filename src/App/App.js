@@ -19,8 +19,8 @@ const App = (props) => {
           posts={props.state.posts}
           addPost={props.addPost}
           newPostText={props.state.newPostText}
-          updateNewPostText={props.updateNewPostText}
-           />} />
+          updateNewPostText={ props.updateNewPostText }
+        />} />
       <Route path='/Dialogues' exact render={() => <Dialogues dialogues={props.state.dialogues} />} />
       <Footer />
     </body>
